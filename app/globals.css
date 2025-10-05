@@ -3,6 +3,10 @@
 
 @custom-variant dark (&:is(.dark *));
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   /* Updated color palette to black, white, gray, orange and yellow for elegant restaurant theme */
   --background: oklch(1 0 0); /* Pure white */
